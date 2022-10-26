@@ -23,7 +23,7 @@ steps:
       path: $(GRADLE_USER_HOME)
     displayName: Gradle Build Cache
 
-  - task: JavaToolInstaller@0
+  - task: JavaToolInstaller@0.211.0
     inputs:
       versionSpec: '11'
       jdkArchitectureOption: 'x64'
